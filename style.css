@@ -1,0 +1,637 @@
+:root{
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #F6FFFA; */
+}
+
+.container1{
+    font-size: 1rem;
+    /* background-color: #F6FFFA; */
+}
+
+nav{
+    background: #01AF5766;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.nav-left{
+    margin-left: 1rem;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-items{
+    margin: 0 10px;
+}
+
+.nav-text{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1F2420;
+}
+
+#nav-try{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F6FFFA;
+
+    padding: 1em 2.5em;
+    background-color: #01AF57;
+    border: 0;
+    border-radius: 10px;
+}
+
+#nav-hamburger{
+    display: none;
+}
+
+.boxes-wrapper{
+    display: grid;
+    grid-template: 20em 10em 20em/ 15% 45%;
+}
+
+.background-box{
+    background: #8ADE9B33;
+    /* aspect-ratio: 0.77; */
+}
+
+#bb1{
+    grid-area: 1 /1;
+}
+
+#bb2{
+    grid-area: 1 /3 ;
+    margin-top: 7em;
+    margin-bottom: -3em;
+}
+
+#bb3{
+    grid-area: 1 /5 ;
+    
+}
+
+#bb4{
+    grid-area: 3 /1 ;
+    margin-left: 2em;
+    margin-right: -2em;
+    margin-top: 1em;
+}
+
+#bb5{
+    grid-area: 3 /3 ;
+    margin-left: -35em;
+    margin-right: 35em;
+    margin-bottom: 2em;
+}
+
+#bb6{
+    grid-area: 3 /5 ;
+    margin-left: -17em;
+    margin-right: 17em;
+    margin-bottom: 4em;
+}
+
+.about-text{
+    position: absolute;
+    left: 32%;
+    top: 17%;
+    width: 49.375em;
+    height: 10em;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-about{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.625em;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+
+    color: #395157;
+
+
+    /* Inside auto layout */
+    /* 
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.sub-about{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75em;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4D5B50;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.container2{
+    /* background: #F6FFFA; */
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.bigbox{
+    background: #D2F3DE;
+    border-radius: 12px;
+
+    /* width: 60%;
+    height: 43.9375em; */
+    flex-basis: 50%;
+    margin-left: 5%;
+    
+}
+
+.hover-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 5%;
+    flex-basis: 40%;
+}
+
+.hoveritem{
+    background: #01AF57;
+    box-shadow: 0px 0px 42px rgba(31, 36, 32, 0.1);
+    border-radius: 8px;
+    padding: 0.875em 1em 1.3em 1.75em;
+    margin-right: 5%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hoverwithtext{
+    background: rgba(31, 36, 32, 0.9);
+    color: #F6FFFA;
+    backdrop-filter: blur(32px);
+    /* Note: backdrop-filter has minimal browser support */
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    height: 10em;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container3{
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mobile-testimonial-text{
+    display: none;
+}
+
+.testimonial-wrapper{
+    background-color: #01AF57;
+    width: 18.75%;
+    /* height: 67.5rem; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* how do i get this testimonial text to decrease with screen width continuously (without using media queries at small breaks) (percentage gives us the testimonial text wrapper whose height is v small) */
+.testimonial-text{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5em;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F6FFFA;
+
+    transform: rotate(-90deg);
+}
+
+.third-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.whatchasay-part{
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 100%; */
+}
+
+#whatchasay{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: #395157;
+
+    
+}
+
+#third-sub-text{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75em;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #677476;
+}
+
+.comments{
+    display: grid;
+    grid-template: 50%/ 50%;
+    /* grid-template: 20% 30% 15% 30% 15%/ 15% 35% 5% 35% 20%;  
+    height: 70%;
+    width: 100%; */
+}
+
+.comment{
+    
+background: rgba(31, 36, 32, 0.9);
+backdrop-filter: blur(32px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 12px;
+
+/* width: 30.5rem;
+height: 15.125rem; */
+/* aspect-ratio: 2.016528926; */
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #F6FFFA;
+
+display: flex;
+flex-wrap: wrap;
+
+margin: 3em;
+
+}
+
+.comment-content{
+    margin: 5%;
+    margin-top: 0;
+}
+
+#comment1{
+    grid-area: 1/1;
+}
+
+#comment2{
+    grid-area: 1/2;
+}
+
+#comment3{
+    grid-area: 2/1;
+}
+
+#comment4{
+    grid-area: 2/2;
+}
+
+.first-line{
+    display: flex;
+    justify-content: space-around;
+}
+
+.comment-text{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #F6FFFA;
+/* width: ; */
+}
+
+.name{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #01AF57;
+}
+
+.office{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #8FA898;
+}
+
+.container4{
+    margin-top: 14em;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-around;
+}
+
+.fourth-left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding: 0%;
+}
+
+.FAQ{
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 3.625em;
+line-height: 0.313em;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #395157;
+
+height: 1em;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.fourth-sub-text{
+    width: 20.125em;
+height: 2.375em;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.working-item{
+  /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0 1em;
+/* gap: 23.4375em; */
+
+
+background: #01AF57;
+border-radius: 12px;
+
+margin: 10px;
+}
+
+.working-text{
+
+width: 15.25em;
+height: 2.5em;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 2.5em;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.drop-down-icon{
+    width: 1.92em;
+    height: 1.92em;
+    border-radius: 0.96em;
+    background: #10C067;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    /* width: 100%; */
+    padding: 3rem 5rem 4rem;
+    background: #1F2420;   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.covercircle-footer{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background: #344137;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 3%; */
+    min-width: 48px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 30%;
+}
+
+/* .footer-left-elements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 2rem;
+    margin-left: 2rem;
+} */
+
+.footer-left-elements{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: auto;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.icon-text{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #EEEEEE;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.icon-with-text-ahead{
+    margin-right: 10%;
+}
+
+#contact-no{
+    width: 10em;
+}
+
+.footer-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.social-media{
+    display: flex;
+    margin-top: 5%;
+}
+
+.social-icons{
+    margin-right: 9%;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.footer-right-about-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8FA898;
+}
+
+.footer-right-about-content{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #EEEEEE;
+}

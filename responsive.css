@@ -1,0 +1,373 @@
+@media screen and (max-width: 1460px) {
+    #bb5{
+        margin-left: -25em;
+        margin-right: 25em;
+    }
+    .about-text{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .about-text{
+        font-size: 0.8em;
+    }
+
+    .fourth-left{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1267px) {
+    /* .comments{
+        display: grid;
+        grid-template: 10% 30% 15% 30% 15%/ 15% 35% 5% 35% 20%;  
+        height: 70%;
+        width: 100%;
+    } */
+}
+
+@media screen and (max-width: 1240px) {
+    /* .comments{
+        display: grid;
+        grid-template: 10% 20% 35% 20% 15%/ 15% 35% 5% 35% 20%;  
+        height: 70%;
+        width: 100%;
+    } */
+
+    .fourth-left{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1148px) {
+
+    .footer-right-about-content{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1106px) {
+    #bb5{
+        margin-left: -20em;
+        margin-right: 20em;
+    }
+
+    #bb6{
+        margin-left: -10em;
+        margin-right: 10em;
+    }
+
+    .about-text{
+        font-size: 0.7em;
+        left: 23%;
+    }
+
+    .fourth-left{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container2{
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .hover-wrapper{
+        height: 40%;
+    }
+
+    /* .comments{
+        display: grid;
+        grid-template: 10% 20% 50% 20% 15%/ 15% 35% 5% 35% 20%;  
+        height: 70%;
+        width: 100%;
+    } */
+
+    .FAQ{
+        height: 3em;
+    }
+
+    .fourth-sub-text{
+        width: 12.125em
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-wrapper{
+        display: none;
+    }
+
+    .mobile-testimonial-text{
+        margin-top: 10%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        color: #395157;
+    }
+
+    .comments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+        width: 80%;
+    }
+
+    .comment{
+        width: 70%;
+        margin: 5%;
+    }
+
+    #comment3{
+        display: none;
+    }
+
+    #comment4{
+        display: none;
+    }
+
+    .footer-left{
+        justify-content: center;
+        margin-left: -5%;
+    }
+
+    .icon-text{
+        font-size: 20px;
+    }
+
+    .footer-right{
+        font-size: 20px;
+        margin-right: -6%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .fourth-left{
+        font-size: 6px;
+    }
+
+    .working-text{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #bb4{
+        margin-top: -10em;
+        margin-bottom: 10em;
+    }
+
+    #bb5{
+        margin-left: -9em;
+        margin-right: 9em;
+        margin-top: -5em;
+        margin-bottom: 5em;
+    }
+
+    #bb6{
+        margin-top: -10em;
+        margin-bottom: 10em;
+    }
+    .about-text{
+        font-size: 0.7em;
+        left: 23%;  
+        top: 10%;  
+    }
+
+    .container2{
+        font-size: 12px;
+        margin-bottom: 10rem;
+    }
+
+    footer{
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-middle{
+        order: 1;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .footer-right{
+        order: 2;
+        width: 100%;
+        margin-top: 0.5em;
+        
+    }
+
+    .footer-left{
+        order: 3;
+        width: 100%;
+        margin-top: 0.5em;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer-left-elements{
+        /* margin:auto */
+        margin-top: 0;
+    }
+
+    .covercircle-footer{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        min-width: 30px;
+    }
+
+    #company-name{
+        font-size: 3em;
+        font-weight: 900;
+    }
+
+    #location-address{
+        margin-right: auto;
+    }
+
+    .location-image-full{
+        margin-right: 0;
+    }
+}
+
+
+/* HERE MOBILE OUTLET STARTS */
+@media screen and (max-width: 720px) {
+    #nav-hamburger{
+        display: flex;
+    }
+
+    .nav-text{
+        display: none;
+    }
+
+    #bb5{
+        margin-left: -9em;
+        margin-right: 9em;
+    }
+    .about-text{
+        font-size: 0.6em;
+        left: 18%;    
+    }
+
+    .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bigbox{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        aspect-ratio: 1.456342669;
+    }
+
+    .hover-wrapper{
+        display: flex;
+        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-items: stretch;
+        /* flex-basis: 40%; */
+    }
+
+    .container3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-wrapper{
+        display: none;
+    }
+
+    .mobile-testimonial-text{
+        margin-top: 10%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        color: #395157;
+    }
+
+    .comments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+        width: 100%;
+    }
+
+    .comment{
+        width: 70%;
+        margin: 5%;
+    }
+
+    #comment3{
+        display: none;
+    }
+
+    #comment4{
+        display: none;
+    }
+    
+    .container4{
+        flex-direction: column;
+    }
+
+    .fourth-left{
+        align-items: center;
+    }
+
+    .fourth-sub-text{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        line-height: 1em;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .container1{
+        height: 50rem;
+    }
+
+    .about-text{
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bigbox{
+        width: 95%;
+    }
+    .about-text{
+        font-size: 0.4em;
+    }
+}

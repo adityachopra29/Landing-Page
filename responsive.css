@@ -35,6 +35,20 @@
         width: 100%;
     } */
 
+    /* .boxes-wrapper{
+        grid-template: 20em 10em 20em/ 20% 45%;
+    } */
+
+    #bb5{
+        margin-left: -15em;
+        margin-right: 10em;
+    }
+
+    #bb6{
+        margin-left: -10em;
+        margin-right: 10em;
+    }
+
     .fourth-left{
         font-size: 10px;
     }
@@ -45,10 +59,46 @@
     .footer-right-about-content{
         font-size: 20px;
     }
+
+    #bb1{
+        margin-bottom: 4em;
+    }
+    
+    #bb2{
+        margin-left: -7em;
+        margin-top: 7em;
+        margin-bottom: -3em;
+    }
+    
+    #bb3{
+        margin-bottom: 4em;
+        
+    }
+    
+    #bb4{
+
+        margin-left: 2em;
+        margin-right: -5em;
+        margin-top: -5em;
+        margin-bottom: 10em;
+    }
+    
+
+    #bb5{
+        margin-left: -15em;
+        margin-right: 10em;
+        margin-bottom: 4em;
+    }
+
+    #bb6{
+        margin-left: -10em;
+        margin-right: 7em;
+    }
+
 }
 
 @media screen and (max-width: 1106px) {
-    #bb5{
+    /* #bb5{
         margin-left: -20em;
         margin-right: 20em;
     }
@@ -56,11 +106,11 @@
     #bb6{
         margin-left: -10em;
         margin-right: 10em;
-    }
+    } */
 
     .about-text{
         font-size: 0.7em;
-        left: 23%;
+        /* left: 23%; */
     }
 
     .fourth-left{
@@ -168,22 +218,30 @@
 }
 
 @media screen and (max-width: 840px) {
+    #bb2{
+        margin-top: 4em;
+        margin-bottom: 2em;
+    }
+
     #bb4{
         margin-top: -10em;
-        margin-bottom: 10em;
+        margin-bottom: 15em;
     }
 
     #bb5{
-        margin-left: -9em;
+        /* margin-left: -9em;
         margin-right: 9em;
         margin-top: -5em;
-        margin-bottom: 5em;
+        margin-bottom: 5em; */
+        display: none;
     }
 
     #bb6{
         margin-top: -10em;
         margin-bottom: 10em;
+        margin-left: -15em;
     }
+
     .about-text{
         font-size: 0.7em;
         left: 23%;  
@@ -266,7 +324,8 @@
     }
     .about-text{
         font-size: 0.6em;
-        left: 18%;    
+        left: 25%;  
+        top: 20%;  
     }
 
     .container2{
@@ -329,6 +388,10 @@
         margin: 5%;
     }
 
+    .signature{
+        margin-left: 32%;
+    }
+
     #comment3{
         display: none;
     }
@@ -353,6 +416,27 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+
+    #bb2{
+        margin-left: -12em;
+        margin-right: 7em;
+    }
+
+    #bb3{
+        margin-left: -3em;
+        margin-bottom: 6em;
+    }
+
+    #bb4{
+        margin-bottom: 15em;
+    }
+    
+    #bb6{
+        margin-bottom: 15em;
+    }
+}
+
 @media screen and (max-width: 590px) {
     .container1{
         height: 50rem;
@@ -361,9 +445,52 @@
     .about-text{
         font-size: 0.5em;
     }
+
+    #bb1{
+        margin-bottom: 10em;
+        margin-right: -4em;
+    }
+
+    #bb2{
+        margin-left: -7em;
+        margin-top: 1em;
+        margin-bottom: 10em;
+        margin-right: 2em;
+    }
+
+    #bb3{
+        margin-bottom: 10em;
+    }
+
+    #bb4{
+        margin-bottom: 20em;
+    }
+
+    #bb6{
+        margin-top: -15em;
+        margin-bottom: 26em;
+        margin-left: -7em;
+        margin-right: 3em;
+    }
+
+    .signature{
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .signature{
+        margin-left: 40%;
+    }
+    
 }
 
 @media screen and (max-width: 450px) {
+
+    #bb2{
+        display: none;
+    }
+
     .bigbox{
         width: 95%;
     }

@@ -16,6 +16,10 @@
     .fourth-left{
         font-size: 12px;
     }
+
+    .Quotes{
+        left: -9%;
+    }
 }
 
 @media screen and (max-width: 1267px) {
@@ -51,6 +55,10 @@
 
     .fourth-left{
         font-size: 10px;
+    }
+
+    .Quotes{
+        left: -11%;
     }
 }
 
@@ -142,9 +150,7 @@
     .fourth-sub-text{
         width: 12.125em
     }
-}
 
-@media screen and (max-width: 1000px) {
     .container3{
         display: flex;
         flex-direction: column;
@@ -171,17 +177,26 @@
         color: #395157;
     }
 
+    
     .comments{
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 70%;
         width: 80%;
+        position: relative;
     }
 
     .comment{
+        position: relative;
         width: 70%;
         margin: 5%;
+    }
+
+    .Quotes{
+        position: absolute;
+        left: -7%;
+        top: -10%;
     }
 
     #comment3{
@@ -251,6 +266,12 @@
     .container2{
         font-size: 12px;
         margin-bottom: 10rem;
+    }
+
+    .Quotes{
+        position: absolute;
+        left: -10%;
+        top: -10%;
     }
 
     footer{
@@ -477,6 +498,13 @@
         margin-left: 35%;
     }
 }
+
+@media screen and (max-width: 490px) {
+    .Quotes{
+        left: -12%;
+    }
+}
+
 
 @media screen and (max-width: 475px) {
     .signature{

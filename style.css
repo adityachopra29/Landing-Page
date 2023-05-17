@@ -308,6 +308,8 @@ color: #677476;
     width: 100%; */
 }
 
+
+
 .comment{
     
 background: rgba(31, 36, 32, 0.9);
@@ -334,7 +336,15 @@ display: flex;
 flex-wrap: wrap;
 
 margin: 3em;
+position: relative;
 
+}
+
+.Quotes{
+    position: relative;
+    left: -6%;
+    /* right: auto; */
+    top: -8%;
 }
 
 .comment-content{

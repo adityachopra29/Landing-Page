@@ -157,6 +157,7 @@ nav{
     align-items: center;
     text-align: center;
     color: #4D5B50;
+    justify-content: center;
 
 
 /* Inside auto layout */
@@ -426,6 +427,7 @@ color: #8FA898;
 .fourth-left{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
     /* justify-content: center; */
     align-items: flex-start;
     padding: 0%;
@@ -566,7 +568,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 
 .icon-text{
@@ -599,9 +601,16 @@ footer{
     width: 30%;
 }
 
-.social-media{
+#company-name{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.social-media {
     display: flex;
     margin-top: 5%;
+    justify-content: center;
 }
 
 .social-icons{

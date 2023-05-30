@@ -143,10 +143,6 @@
         width: 100%;
     } */
 
-    .FAQ{
-        /* height: 3em; */
-    }
-
     .fourth-sub-text{
         width: 12.125em
     }
@@ -352,7 +348,7 @@
 
     .container2{
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
     }
 
     .bigbox{
@@ -365,6 +361,7 @@
 
     .hover-wrapper{
         display: flex;
+        flex-direction: column;
         margin: auto;
         margin-left: 10%;
         margin-right: 10%;
@@ -379,6 +376,8 @@
     .container3{
         display: flex;
         flex-direction: column;
+        margin-right: 10%;
+        margin-left: 10%;
     }
 
     .testimonial-wrapper{
@@ -402,6 +401,10 @@
         color: #395157;
     }
 
+    #whatchasay{
+        font-size: 2em;
+    }
+
     .comments{
         display: flex;
         flex-direction: column;
@@ -411,7 +414,7 @@
     }
 
     .comment{
-        width: 70%;
+        width: 100%;
         margin: 5%;
     }
 
@@ -512,6 +515,31 @@
     .signature{
         margin-left: 35%;
     }
+
+    .comments{
+        width: 100%;
+        align-items: center;
+    }
+
+    .comment{
+        width: 100%;
+        /* justify-content: center; */
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .about-text{
+        position: absolute;
+        left: 10%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .main-about{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
 }
 
 @media screen and (max-width: 490px) {
@@ -520,10 +548,15 @@
     }
 }
 
-
 @media screen and (max-width: 475px) {
     .signature{
         margin-left: 40%;
+    }
+
+    .comments{
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
     }
     
 }
@@ -541,3 +574,25 @@
         font-size: 0.4em;
     }
 }
+
+@media screen and (max-width : 360px) {
+    .about-text{
+        font-size: 0.3em;
+        top: 30%;
+    }
+    .main-about{
+        line-height: 2em;
+    }
+    .sub-about{
+        line-height: 1.5em;
+    }
+
+    .working-item{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+/* 
+@media screen and (max-width : 325px) {
+    .
+} */
